@@ -6,8 +6,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 
 import com.nelioalves.cursomc.security.UserSS;
 
-public class UserService implements Serializable {
-	private static final long serialVersionUID = 1L;
+public class UserService  {
 
 	public static UserSS authenticated() {
 		try {
