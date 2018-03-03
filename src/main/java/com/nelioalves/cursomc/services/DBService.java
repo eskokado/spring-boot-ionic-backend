@@ -128,7 +128,6 @@ public class DBService {
 		Endereco e2 = new Endereco(null, "Avenida Matos", "105", "Sala 800", "Centro", "38777012", cli1, c2);
 		
 		Endereco e3 = new Endereco(null, "Rodovia Matos", "1505", "Sala 80", "Centro", "45777012", cli2, c2);
-
 		
 		cli1.getEnderecos().addAll(Arrays.asList(e1, e2));
 		cli2.getEnderecos().addAll(Arrays.asList(e3));
